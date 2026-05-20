@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy rửa bát compact 6 bộ">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="240" y="120" width="320" height="380" rx="20" fill="#fff" stroke="#cfd5e3" stroke-width="2"/>
+  <rect x="260" y="140" width="280" height="80" rx="10" fill="#0a0d18"/>
+  <g fill="#ffd953" font-family="Inter, Arial, sans-serif">
+    <text x="280" y="170" font-size="14">Compact 6 bộ</text>
+    <text x="280" y="195" font-size="12" fill="#fff">Eco · Quick · Glass · Baby</text>
+  </g>
+  <rect x="270" y="240" width="260" height="240" rx="12" fill="#eef0f6" stroke="#cfd5e3"/>
+  <text x="400" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5c5f6d">Phù hợp gia đình 2-4 người · Tiết kiệm điện nước</text>
+</svg>

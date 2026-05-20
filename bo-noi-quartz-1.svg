@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Bộ nồi inox 5 món Quartz">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <g stroke="#7a8198" stroke-width="2" fill="#dde0e6">
+    <ellipse cx="160" cy="380" rx="90" ry="22"/>
+    <rect x="80" y="280" width="160" height="100" rx="8"/>
+    <rect x="60"  y="270" width="200" height="14" rx="6"/>
+  </g>
+  <g stroke="#7a8198" stroke-width="2" fill="#cfd5e3">
+    <ellipse cx="360" cy="400" rx="110" ry="26"/>
+    <rect x="260" y="270" width="200" height="130" rx="10"/>
+    <rect x="240" y="258" width="240" height="16" rx="6"/>
+  </g>
+  <g stroke="#7a8198" stroke-width="2" fill="#dde0e6">
+    <ellipse cx="600" cy="420" rx="120" ry="28"/>
+    <rect x="490" y="240" width="220" height="180" rx="10"/>
+    <rect x="468" y="228" width="264" height="16" rx="6"/>
+  </g>
+  <text x="400" y="510" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f1f28">Bộ nồi inox 5 món Quartz</text>
+  <text x="400" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5c5f6d">Inox 304 đáy từ 3 lớp · Phù hợp mọi loại bếp</text>
+</svg>

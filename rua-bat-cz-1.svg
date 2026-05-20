@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy rửa bát CZ DWS128C16I">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="180" y="80" width="440" height="460" rx="22" fill="#dde0e6" stroke="#a4adc4" stroke-width="2"/>
+  <rect x="200" y="100" width="400" height="100" rx="14" fill="#0a0d18"/>
+  <g fill="#ffd953" font-family="Inter, Arial, sans-serif">
+    <text x="220" y="135" font-size="16">CZ · DWS128C16I</text>
+    <rect x="220" y="150" width="50" height="30" rx="6" fill="#1a2031"/>
+    <text x="245" y="170" text-anchor="middle" font-size="12">ECO</text>
+    <rect x="280" y="150" width="60" height="30" rx="6" fill="#1a2031"/>
+    <text x="310" y="170" text-anchor="middle" font-size="12">AUTO</text>
+    <rect x="350" y="150" width="60" height="30" rx="6" fill="#1a2031"/>
+    <text x="380" y="170" text-anchor="middle" font-size="12">QUICK</text>
+    <rect x="420" y="150" width="60" height="30" rx="6" fill="#1a2031"/>
+    <text x="450" y="170" text-anchor="middle" font-size="12">HEAVY</text>
+    <text x="500" y="172" font-size="12" fill="#fff">14 BỘ</text>
+  </g>
+  <rect x="220" y="220" width="380" height="300" rx="14" fill="#fff" stroke="#a4adc4"/>
+  <line x1="220" y1="320" x2="600" y2="320" stroke="#dde0e6"/>
+  <line x1="220" y1="420" x2="600" y2="420" stroke="#dde0e6"/>
+  <g fill="#a4adc4">
+    <circle cx="260" cy="280" r="16" stroke="#7a8198" fill="none"/>
+    <circle cx="320" cy="280" r="16" stroke="#7a8198" fill="none"/>
+    <circle cx="380" cy="280" r="16" stroke="#7a8198" fill="none"/>
+    <circle cx="440" cy="280" r="16" stroke="#7a8198" fill="none"/>
+    <circle cx="500" cy="280" r="16" stroke="#7a8198" fill="none"/>
+    <circle cx="560" cy="280" r="16" stroke="#7a8198" fill="none"/>
+  </g>
+  <text x="400" y="560" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5c5f6d">14 bộ chén dĩa · 8 chương trình rửa · Cảm biến độ bẩn</text>
+</svg>

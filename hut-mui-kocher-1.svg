@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy hút mùi Kocher Luvia 70cm">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <defs>
+    <linearGradient id="kocher-glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1f2e"/>
+      <stop offset="100%" stop-color="#0a0d18"/>
+    </linearGradient>
+  </defs>
+  <rect x="160" y="120" width="480" height="80" rx="10" fill="url(#kocher-glass)"/>
+  <polygon points="160,200 640,200 600,360 200,360" fill="url(#kocher-glass)"/>
+  <rect x="200" y="350" width="400" height="50" rx="10" fill="#11141f"/>
+  <g fill="#ffd953" font-family="Inter, Arial, sans-serif" font-size="14">
+    <text x="220" y="380">Kocher · Luvia Premium 70cm</text>
+    <circle cx="540" cy="375" r="6"/>
+    <circle cx="560" cy="375" r="6"/>
+    <circle cx="580" cy="375" r="6"/>
+  </g>
+  <rect x="260" y="430" width="280" height="80" rx="10" fill="#fff" stroke="#dde0e6"/>
+  <text x="400" y="478" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5c5f6d">Mặt kính cong cao cấp · Đèn LED · 3 cấp tốc độ</text>
+</svg>

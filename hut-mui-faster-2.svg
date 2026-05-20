@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy hút mùi Faster - bộ lọc tự làm sạch">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="120" y="120" width="560" height="360" rx="22" fill="#fff" stroke="#dde0e6"/>
+  <text x="400" y="170" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#1f1f28">Auto Clean Technology</text>
+  <g transform="translate(160,210)">
+    <rect width="220" height="220" rx="18" fill="#fde8d4" stroke="#f5a86b"/>
+    <circle cx="110" cy="110" r="60" fill="#ff6a00"/>
+    <text x="110" y="116" text-anchor="middle" font-size="40" fill="#fff">🔥</text>
+    <text x="110" y="200" text-anchor="middle" font-size="14" fill="#a04a00">Hâm nóng</text>
+  </g>
+  <g transform="translate(420,210)">
+    <rect width="220" height="220" rx="18" fill="#d6efe2" stroke="#5db987"/>
+    <circle cx="110" cy="110" r="60" fill="#1f8c3d"/>
+    <text x="110" y="118" text-anchor="middle" font-size="40" fill="#fff">💧</text>
+    <text x="110" y="200" text-anchor="middle" font-size="14" fill="#0a5226">Rửa lưới lọc dầu</text>
+  </g>
+  <text x="400" y="520" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5c5f6d">Một chạm tự động làm sạch lưới lọc trong 35 phút</text>
+</svg>

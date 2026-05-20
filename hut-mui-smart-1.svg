@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy hút mùi Smart 90cm">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="120" y="130" width="560" height="80" rx="8" fill="#dde0e6" stroke="#9aa3b8"/>
+  <polygon points="120,210 680,210 660,330 140,330" fill="#dde0e6" stroke="#9aa3b8"/>
+  <rect x="160" y="320" width="480" height="50" rx="8" fill="#0a0d18"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#ffd953" font-size="14">
+    <text x="180" y="350">Smart 90cm · Touch Control</text>
+    <rect x="450" y="335" width="60" height="20" rx="6" fill="#1a2031"/>
+    <text x="480" y="350" text-anchor="middle">AUTO</text>
+    <rect x="520" y="335" width="60" height="20" rx="6" fill="#1a2031"/>
+    <text x="550" y="350" text-anchor="middle">+</text>
+  </g>
+  <text x="400" y="490" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Cảm biến mùi tự động · Đèn LED 3 màu</text>
+</svg>

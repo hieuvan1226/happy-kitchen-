@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Chậu vòi Stream Pro">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="120" y="200" width="560" height="280" rx="22" fill="#cfd5e3" stroke="#9aa3b8"/>
+  <rect x="150" y="230" width="500" height="220" rx="16" fill="#475065"/>
+  <circle cx="400" cy="350" r="20" fill="#1f1f28"/>
+  <path d="M400 90 Q400 220 360 230" stroke="#475065" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <circle cx="400" cy="78" r="18" fill="#475065"/>
+  <text x="400" y="530" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Vòi rút dây · 2 chế độ tia · Mạ chrome cao cấp</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy lọc nước Ionic Pro">
+  <defs>
+    <linearGradient id="water-g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="260" y="100" width="280" height="420" rx="22" fill="#fff" stroke="#cfd5e3" stroke-width="2"/>
+  <rect x="280" y="120" width="240" height="160" rx="14" fill="url(#water-g)"/>
+  <text x="400" y="180" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff">Ionic Pro</text>
+  <text x="400" y="210" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#e0f2fe">10 cấp lọc · Không dùng điện</text>
+  <g fill="#0284c7" font-family="Inter, Arial, sans-serif" font-size="14">
+    <circle cx="320" cy="320" r="14"/><text x="345" y="324" fill="#1f1f28">Cation</text>
+    <circle cx="320" cy="360" r="14"/><text x="345" y="364" fill="#1f1f28">Anion</text>
+    <circle cx="320" cy="400" r="14"/><text x="345" y="404" fill="#1f1f28">Sediment</text>
+    <circle cx="320" cy="440" r="14"/><text x="345" y="444" fill="#1f1f28">Carbon</text>
+    <circle cx="320" cy="480" r="14"/><text x="345" y="484" fill="#1f1f28">Mineral+</text>
+  </g>
+  <text x="400" y="560" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5c5f6d">Bổ sung khoáng tự nhiên · Loại bỏ kim loại nặng</text>
+</svg>

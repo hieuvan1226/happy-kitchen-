@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Chậu rửa bát Tari Smart 780">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="80" y="160" width="640" height="280" rx="24" fill="#cfd5e3" stroke="#9aa3b8"/>
+  <rect x="110" y="190" width="580" height="220" rx="16" fill="#7a8198"/>
+  <rect x="140" y="220" width="240" height="160" rx="12" fill="#475065"/>
+  <rect x="420" y="220" width="240" height="160" rx="12" fill="#475065"/>
+  <circle cx="260" cy="300" r="14" fill="#1f1f28"/>
+  <circle cx="540" cy="300" r="14" fill="#1f1f28"/>
+  <path d="M380 90 L380 180 Q380 200 400 200 L420 200" stroke="#7a8198" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <circle cx="380" cy="80" r="14" fill="#7a8198"/>
+  <text x="400" y="490" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Tari Smart 780 · Inox SUS304 vân nhám chống xước</text>
+</svg>

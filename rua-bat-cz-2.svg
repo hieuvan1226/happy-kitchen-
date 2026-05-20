@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Khoang chứa bát đĩa máy rửa bát CZ">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="100" y="100" width="600" height="400" rx="20" fill="#fff" stroke="#cfd5e3" stroke-width="2"/>
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#cfd5e3" stroke-width="2"/>
+  <g stroke="#9aa3b8" fill="none">
+    <ellipse cx="200" cy="220" rx="40" ry="10"/>
+    <ellipse cx="280" cy="220" rx="40" ry="10"/>
+    <ellipse cx="360" cy="220" rx="40" ry="10"/>
+    <ellipse cx="440" cy="220" rx="40" ry="10"/>
+    <ellipse cx="520" cy="220" rx="40" ry="10"/>
+    <ellipse cx="600" cy="220" rx="40" ry="10"/>
+  </g>
+  <g fill="#9aa3b8">
+    <rect x="160" y="350" width="60" height="80" rx="6"/>
+    <rect x="240" y="350" width="60" height="80" rx="6"/>
+    <rect x="320" y="350" width="60" height="80" rx="6"/>
+    <rect x="400" y="350" width="60" height="80" rx="6"/>
+    <rect x="480" y="350" width="60" height="80" rx="6"/>
+    <rect x="560" y="350" width="60" height="80" rx="6"/>
+  </g>
+  <text x="400" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#5c5f6d">Hai tầng giá đỡ inox 304 chống gỉ</text>
+</svg>

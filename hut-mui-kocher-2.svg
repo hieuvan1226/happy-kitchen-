@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy hút mùi Kocher Luvia Black Matte">
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="120" y="100" width="560" height="80" rx="6" fill="#0a0d18"/>
+  <polygon points="120,180 680,180 640,360 160,360" fill="#0a0d18"/>
+  <rect x="160" y="350" width="480" height="50" rx="8" fill="#161a25"/>
+  <g fill="#fff" font-family="Inter, Arial, sans-serif">
+    <text x="180" y="380" font-size="14">Black Matte 90cm</text>
+    <circle cx="500" cy="375" r="6" fill="#ffd953"/>
+    <circle cx="520" cy="375" r="6" fill="#ffd953"/>
+    <circle cx="540" cy="375" r="6" fill="#ffd953"/>
+  </g>
+  <text x="400" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Sơn tĩnh điện đen mờ chống bám vân tay</text>
+</svg>

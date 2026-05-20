@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Lắp đặt tận nơi">
+  <rect width="800" height="600" fill="#ecfdf5"/>
+  <g transform="translate(400,260)" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <circle r="120" fill="#1f8c3d"/>
+    <text y="20" font-size="80" fill="#fff">🛠️</text>
+  </g>
+  <text x="400" y="450" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#0a5226">Miễn phí lắp đặt</text>
+  <text x="400" y="490" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#1f8c3d">Đội kỹ thuật chuyên nghiệp · Có mặt trong 24h</text>
+</svg>

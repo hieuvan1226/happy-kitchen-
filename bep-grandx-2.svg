@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Bếp từ GrandX góc nhìn nghiêng">
+  <defs>
+    <linearGradient id="floor-g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6f7fb"/>
+      <stop offset="100%" stop-color="#dfe3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#floor-g)"/>
+  <polygon points="120,380 680,380 740,460 60,460" fill="#1a1f2e"/>
+  <polygon points="120,380 680,380 660,360 140,360" fill="#272f44"/>
+  <ellipse cx="280" cy="372" rx="78" ry="14" fill="#11141f"/>
+  <ellipse cx="280" cy="368" rx="78" ry="10" fill="none" stroke="#ff6a00" stroke-width="2" opacity="0.7"/>
+  <ellipse cx="520" cy="372" rx="78" ry="14" fill="#11141f"/>
+  <ellipse cx="520" cy="368" rx="78" ry="10" fill="none" stroke="#ff6a00" stroke-width="2" opacity="0.7"/>
+  <text x="400" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Thiết kế âm bàn liền mạch · Khung viền nhôm</text>
+</svg>

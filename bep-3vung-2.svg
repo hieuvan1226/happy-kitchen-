@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Bếp từ 3 vùng nấu - chi tiết bảng điều khiển">
+  <rect width="800" height="600" fill="#0a0d18"/>
+  <rect x="80" y="180" width="640" height="240" rx="20" fill="#101524" stroke="#1d2538"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#ffd953">
+    <text x="120" y="230" font-size="20" font-weight="700">CONTROL PANEL</text>
+    <g transform="translate(120,260)">
+      <rect width="120" height="60" rx="14" fill="#1a2033"/>
+      <text x="60" y="38" text-anchor="middle" font-size="16">POWER</text>
+    </g>
+    <g transform="translate(260,260)">
+      <rect width="120" height="60" rx="14" fill="#1a2033"/>
+      <text x="60" y="38" text-anchor="middle" font-size="16">+ / -</text>
+    </g>
+    <g transform="translate(400,260)">
+      <rect width="120" height="60" rx="14" fill="#1a2033"/>
+      <text x="60" y="38" text-anchor="middle" font-size="16">TIMER</text>
+    </g>
+    <g transform="translate(540,260)">
+      <rect width="120" height="60" rx="14" fill="#1a2033"/>
+      <text x="60" y="38" text-anchor="middle" font-size="16">LOCK</text>
+    </g>
+    <text x="120" y="370" font-size="14" fill="#9aa0b4">Cảm ứng nhạy · Tự động nhận nồi · Tiết kiệm điện</text>
+  </g>
+</svg>

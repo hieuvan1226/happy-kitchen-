@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Bếp từ đôi GrandX GX IP869XPro - mặt trước">
+  <defs>
+    <linearGradient id="bg-grandx" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2433"/>
+      <stop offset="100%" stop-color="#0a0d18"/>
+    </linearGradient>
+    <radialGradient id="zone" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff6a00" stop-opacity="0.0"/>
+      <stop offset="60%" stop-color="#ff6a00" stop-opacity="0.0"/>
+      <stop offset="80%" stop-color="#ff7a1f" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffd953" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="80" y="120" width="640" height="380" rx="28" fill="url(#bg-grandx)"/>
+  <rect x="100" y="138" width="600" height="340" rx="22" fill="#0c0f1a" stroke="#222a3d" stroke-width="2"/>
+  <circle cx="280" cy="290" r="110" fill="#11141f" stroke="#222a3d"/>
+  <circle cx="280" cy="290" r="105" fill="url(#zone)"/>
+  <circle cx="280" cy="290" r="92" fill="none" stroke="#ff6a00" stroke-width="2" stroke-dasharray="6 6" opacity="0.7"/>
+  <circle cx="520" cy="290" r="110" fill="#11141f" stroke="#222a3d"/>
+  <circle cx="520" cy="290" r="105" fill="url(#zone)"/>
+  <circle cx="520" cy="290" r="92" fill="none" stroke="#ff6a00" stroke-width="2" stroke-dasharray="6 6" opacity="0.7"/>
+  <g font-family="Inter, Arial, sans-serif" fill="#ffd953">
+    <text x="400" y="180" text-anchor="middle" font-size="22" font-weight="700">GrandX  GX IP869X Pro</text>
+  </g>
+  <g transform="translate(180,440)" fill="#ffd953" font-family="Inter, Arial, sans-serif" font-size="14">
+    <circle cx="0" cy="0" r="10" fill="#1a2031" stroke="#ffd953"/>
+    <text x="22" y="5">Power</text>
+    <circle cx="120" cy="0" r="10" fill="#1a2031" stroke="#ffd953"/>
+    <text x="142" y="5">Lock</text>
+    <circle cx="230" cy="0" r="10" fill="#1a2031" stroke="#ffd953"/>
+    <text x="252" y="5">Boost</text>
+    <circle cx="360" cy="0" r="10" fill="#1a2031" stroke="#ffd953"/>
+    <text x="382" y="5">Timer</text>
+  </g>
+  <text x="400" y="560" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Bếp từ đôi cảm ứng cao cấp · Mặt kính Schott Ceran</text>
+</svg>

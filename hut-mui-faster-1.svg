@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Máy hút mùi Faster FS 35AI">
+  <defs>
+    <linearGradient id="hood-1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#dfe3ee"/>
+      <stop offset="100%" stop-color="#9aa3b8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f6f7fb"/>
+  <rect x="200" y="120" width="400" height="60" rx="6" fill="url(#hood-1)" stroke="#7a8198"/>
+  <polygon points="220,180 580,180 620,300 180,300" fill="url(#hood-1)" stroke="#7a8198"/>
+  <rect x="180" y="298" width="440" height="40" rx="8" fill="#1f2433"/>
+  <g transform="translate(220,308)" fill="#ffd953" font-family="Inter, Arial, sans-serif" font-size="14">
+    <circle cx="0"  cy="10" r="8" fill="#0a0d18" stroke="#ffd953"/>
+    <circle cx="40" cy="10" r="8" fill="#0a0d18" stroke="#ffd953"/>
+    <circle cx="80" cy="10" r="8" fill="#0a0d18" stroke="#ffd953"/>
+    <text x="120" y="15" fill="#ffffff">Faster · Auto-Clean</text>
+  </g>
+  <rect x="240" y="370" width="320" height="120" rx="14" fill="#eef0f6" stroke="#cfd5e3"/>
+  <line x1="270" y1="400" x2="530" y2="400" stroke="#cfd5e3"/>
+  <line x1="270" y1="430" x2="530" y2="430" stroke="#cfd5e3"/>
+  <line x1="270" y1="460" x2="530" y2="460" stroke="#cfd5e3"/>
+  <text x="400" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Lưu lượng hút 1.000 m³/h · Đèn LED tích hợp</text>
+</svg>

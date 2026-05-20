@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Bảo hành chính hãng">
+  <rect width="800" height="600" fill="#fff7ed"/>
+  <g transform="translate(400,300)" font-family="Inter, Arial, sans-serif">
+    <circle r="160" fill="#ff6a00"/>
+    <text y="-10" text-anchor="middle" fill="#fff" font-size="28" font-weight="800">BẢO HÀNH</text>
+    <text y="40" text-anchor="middle" fill="#fff" font-size="64" font-weight="800">24</text>
+    <text y="80" text-anchor="middle" fill="#fff" font-size="20">tháng chính hãng</text>
+  </g>
+  <text x="400" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="16" fill="#5c5f6d">Đổi mới trong 7 ngày · Hỗ trợ kỹ thuật trọn đời</text>
+</svg>
