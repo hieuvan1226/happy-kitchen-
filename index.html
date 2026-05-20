@@ -1,0 +1,464 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tổng Kho Bếp Giá Tốt Happy Kitchen - siêu thị thiết bị bếp chính hãng với giá tốt, giao hàng nhanh và dịch vụ tận tâm." />
+  <meta name="keywords" content="Tổng Kho Bếp Giá Tốt, thiết bị bếp, bếp điện từ, máy hút mùi, máy rửa bát, máy lọc nước, chậu vòi, bộ nồi, bán hàng online" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Tổng Kho Bếp Giá Tốt Happy Kitchen | Thiết bị bếp chính hãng, giá tốt" />
+  <meta property="og:description" content="Mua sắm thiết bị bếp chất lượng, giá tốt, giao hàng nhanh và dịch vụ tận tâm tại Happy Kitchen." />
+  <meta property="og:image" content="images/banners/hero-banner.svg" />
+  <meta property="og:site_name" content="Tổng Kho Bếp Giá Tốt Happy Kitchen" />
+  <title>Tổng Kho Bếp Giá Tốt Happy Kitchen | Thiết bị bếp chính hãng, giá tốt</title>
+  <link rel="icon" href="images/logo/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=5" />
+</head>
+<body>
+  <div class="top-bar">
+    <div>Chào mừng bạn đến với Tổng Kho Bếp Giá Tốt Happy Kitchen</div>
+    <div>Hotline: <a href="tel:0824280666"><b>0824 280 666</b></a> | Email: <a href="mailto:hieutop0102@gmail.com">hieutop0102@gmail.com</a></div>
+  </div>
+
+  <header class="site-header">
+    <div class="header-left">
+      <a class="brand" href="#" onclick="showPage('home')">Tổng Kho Bếp Giá Tốt Happy Kitchen</a>
+      <p class="brand-subtitle">Siêu thị thiết bị bếp chính hãng, giá tốt và dịch vụ tận tâm</p>
+    </div>
+
+    <div class="header-right">
+      <div class="search-wrap">
+        <input type="text" id="searchInput" placeholder="Tìm kiếm sản phẩm..." oninput="handleSearch()" />
+        <button onclick="handleSearch()">Tìm kiếm</button>
+      </div>
+      <button class="cart-button" onclick="showPage('giohang')">
+        <span>🛒</span>
+        <div>
+          <strong>Giỏ hàng</strong>
+          <span><span id="cartCount">0</span> sản phẩm</span>
+        </div>
+      </button>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <a data-page="home" onclick="showPage('home')" class="active-nav">Trang chủ</a>
+    <a data-page="gioithieu" onclick="showPage('gioithieu')">Giới thiệu</a>
+    <a data-page="dichvu" onclick="showPage('dichvu')">Dịch vụ</a>
+    <a data-page="sanpham" onclick="showPage('sanpham')">Sản phẩm</a>
+    <a data-page="giohang" onclick="showPage('giohang')">Giỏ hàng</a>
+    <a data-page="khuyenmai" onclick="showPage('khuyenmai')">Khuyến mại</a>
+    <a data-page="tintuc" onclick="showPage('tintuc')">Tin tức</a>
+    <a data-page="lienhe" onclick="showPage('lienhe')">Liên hệ</a>
+  </nav>
+
+  <main>
+    <section class="page active" id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <span>Siêu thị bếp & gia dụng cao cấp</span>
+          <h1>Tổng Kho Bếp Giá Tốt Happy Kitchen</h1>
+          <p>Chúng tôi cung cấp thiết bị bếp chất lượng, tư vấn chuyên nghiệp, giao hàng nhanh và bảo hành tận tâm.</p>
+          <div class="hero-buttons">
+            <button onclick="showPage('sanpham')">Xem sản phẩm</button>
+            <button class="secondary" onclick="showPage('lienhe')">Liên hệ ngay</button>
+          </div>
+          <div class="hero-stats">
+            <div><strong>1.500+</strong><span>Sản phẩm</span></div>
+            <div><strong>24h</strong><span>Giao hàng nhanh</span></div>
+            <div><strong>100%</strong><span>Hàng chính hãng</span></div>
+          </div>
+        </div>
+        <div class="hero-media">
+          <img src="images/banners/hero-banner.svg" alt="Showroom Tổng Kho Bếp Giá Tốt Happy Kitchen" loading="lazy" />
+        </div>
+      </section>
+
+      <section class="home-features">
+        <article class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3>Giá tốt mỗi ngày</h3>
+          <p>Cam kết bán hàng giá cạnh tranh, nhiều ưu đãi hấp dẫn.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🧑‍🍳</div>
+          <h3>Tư vấn chuyên sâu</h3>
+          <p>Đội ngũ chuyên viên am hiểu giúp chọn thiết bị phù hợp.</p>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon">🛠️</div>
+          <h3>Chính sách an tâm</h3>
+          <p>Đổi trả, bảo hành và hỗ trợ kỹ thuật tận nơi.</p>
+        </article>
+      </section>
+
+      <section class="featured-products">
+        <div class="section-header">
+          <h2>Sản phẩm nổi bật</h2>
+          <p>Những mặt hàng được khách hàng đánh giá cao và bán chạy nhất.</p>
+        </div>
+        <div class="products" id="featuredList"></div>
+      </section>
+    </section>
+
+    <section class="page" id="sanpham">
+      <div class="section-header full-width">
+        <div>
+          <h2>Danh sách sản phẩm</h2>
+          <p id="productCount">Đang tải sản phẩm...</p>
+        </div>
+        <button class="button-secondary" onclick="clearFilters()">Xóa bộ lọc</button>
+      </div>
+
+      <div class="category-top-panel">
+        <div class="category-card category-top-card">
+          <h3>Danh mục</h3>
+          <div class="category-list">
+            <button class="category active" data-category="all" onclick="filterCategory('all')">Tất cả</button>
+            <button class="category" data-category="bep-dien-tu" onclick="filterCategory('bep-dien-tu')">Bếp điện từ</button>
+            <button class="category" data-category="may-hut-mui" onclick="filterCategory('may-hut-mui')">Máy hút mùi</button>
+            <button class="category" data-category="may-rua-bat" onclick="filterCategory('may-rua-bat')">Máy rửa bát</button>
+            <button class="category" data-category="chau-voi" onclick="filterCategory('chau-voi')">Chậu - vòi</button>
+            <button class="category" data-category="may-loc-nuoc" onclick="filterCategory('may-loc-nuoc')">Máy lọc nước</button>
+            <button class="category" data-category="bo-noi" onclick="filterCategory('bo-noi')">Bộ nồi</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-page-grid">
+        <div class="product-content">
+          <div class="search-panel">
+            <input type="text" id="searchProductInput" placeholder="Tìm sản phẩm theo tên..." oninput="handleSearch()" />
+            <button onclick="handleSearch()">Tìm</button>
+          </div>
+          <div class="products" id="productList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="giohang">
+      <div class="section-header full-width">
+        <div>
+          <h2>Giỏ hàng của bạn</h2>
+          <p>Quản lý đơn hàng, cập nhật số lượng và hoàn tất thanh toán.</p>
+        </div>
+      </div>
+
+      <div class="checkout-layout">
+        <aside class="checkout-sidebar">
+          <div class="sidebar-card">
+            <div class="sidebar-title">Danh mục sản phẩm</div>
+            <div class="category-list">
+              <button class="category active" data-category="all" onclick="filterCategory('all'); showPage('sanpham')">Tất cả</button>
+              <button class="category" data-category="bep-dien-tu" onclick="filterCategory('bep-dien-tu'); showPage('sanpham')">Bếp điện từ</button>
+              <button class="category" data-category="may-hut-mui" onclick="filterCategory('may-hut-mui'); showPage('sanpham')">Máy hút khử mùi</button>
+              <button class="category" data-category="lo-nuong" onclick="filterCategory('all'); showPage('sanpham')">Lò nướng - Lò vi sóng</button>
+              <button class="category" data-category="may-rua-bat" onclick="filterCategory('may-rua-bat'); showPage('sanpham')">Máy rửa bát - Sấy bát cao cấp</button>
+              <button class="category" data-category="chau-voi" onclick="filterCategory('chau-voi'); showPage('sanpham')">Chậu - Vòi rửa bát</button>
+              <button class="category" data-category="phu-kien-tu-bep" onclick="filterCategory('all'); showPage('sanpham')">Phụ kiện tủ bếp</button>
+              <button class="category" data-category="may-loc-nuoc" onclick="filterCategory('may-loc-nuoc'); showPage('sanpham')">Máy lọc nước</button>
+              <button class="category" data-category="bo-noi" onclick="filterCategory('bo-noi'); showPage('sanpham')">Bộ nồi cao cấp cho bếp từ</button>
+            </div>
+          </div>
+          <div class="sidebar-card promo-card">
+            <h4>Special Sales!</h4>
+            <p>Ưu đãi độc quyền dành cho khách hàng đặt hàng trực tuyến.</p>
+            <ul>
+              <li>Giảm 15% khi thanh toán qua chuyển khoản.</li>
+              <li>Miễn phí vận chuyển nội thành Hà Nội.</li>
+              <li>Tặng quà khi mua đơn hàng từ 10 triệu.</li>
+            </ul>
+          </div>
+        </aside>
+
+        <div class="checkout-main">
+          <div class="checkout-steps">
+            <div class="checkout-step active"><span>1</span><p>Giỏ hàng</p></div>
+            <div class="checkout-step"><span>2</span><p>Thông tin nhận hàng</p></div>
+            <div class="checkout-step"><span>3</span><p>Hoàn tất</p></div>
+          </div>
+          <div class="checkout-content" id="cartPageContent"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="gioithieu">
+      <div class="content-card intro-panel">
+        <div class="intro-head">
+          <div>
+            <span class="intro-eyebrow">Về Happy Kitchen</span>
+            <h2>Tổng Kho Bếp Giá Tốt - Happy Kitchen</h2>
+            <p>Chúng tôi là điểm đến tin cậy cho thiết bị bếp chính hãng, giá tốt, dịch vụ tư vấn và lắp đặt chuyên nghiệp dành cho mọi căn bếp Việt hiện đại.</p>
+          </div>
+          <div class="intro-badge">1.500+ khách hàng tin tưởng</div>
+        </div>
+
+        <div class="intro-grid">
+          <article class="intro-card">
+            <span class="intro-icon">💰</span>
+            <div>
+              <h3>Giá tốt nhất mỗi ngày</h3>
+              <p>Phối hợp trực tiếp với các nhà cung cấp thiết bị bếp hàng đầu, chúng tôi tối ưu chi phí vận hành để mang đến mức giá cạnh tranh nhất kèm nhiều ưu đãi mua sắm hằng ngày.</p>
+            </div>
+          </article>
+          <article class="intro-card">
+            <span class="intro-icon">🛒</span>
+            <div>
+              <h3>Sản phẩm đa dạng</h3>
+              <p>Bếp điện từ, máy hút mùi, máy rửa bát, chậu vòi, máy lọc nước, bộ nồi cao cấp... đầy đủ cho mọi không gian bếp với nhiều thương hiệu chính hãng.</p>
+            </div>
+          </article>
+          <article class="intro-card">
+            <span class="intro-icon">🧑‍🍳</span>
+            <div>
+              <h3>Tư vấn chuyên nghiệp</h3>
+              <p>Chỉ một cuộc gọi tới hotline hoặc tin nhắn Zalo, đội ngũ chuyên viên am hiểu sẽ giúp bạn chọn sản phẩm phù hợp ngân sách và không gian. Ghé showroom để trải nghiệm trực tiếp.</p>
+            </div>
+          </article>
+          <article class="intro-card">
+            <span class="intro-icon">🚚</span>
+            <div>
+              <h3>Giao - lắp trong 24h</h3>
+              <p>Miễn phí giao hàng và lắp đặt nội thành Hà Nội, TP.HCM. Đội kỹ thuật lành nghề đảm bảo an toàn, thẩm mỹ và đúng tiêu chuẩn nhà sản xuất.</p>
+            </div>
+          </article>
+          <article class="intro-card">
+            <span class="intro-icon">🛠️</span>
+            <div>
+              <h3>Hậu mãi chu đáo</h3>
+              <p>Bảo hành chính hãng, hỗ trợ kỹ thuật trọn đời sản phẩm với một số gói cao cấp. Tư vấn sử dụng, bảo trì, đổi trả minh bạch và đúng cam kết.</p>
+            </div>
+          </article>
+          <article class="intro-card">
+            <span class="intro-icon">💳</span>
+            <div>
+              <h3>Thanh toán linh hoạt</h3>
+              <p>Đa dạng hình thức thanh toán: tiền mặt khi nhận hàng, chuyển khoản, ví điện tử và thẻ ATM/Visa/Mastercard - thuận tiện cho mọi khách hàng.</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="intro-cta">
+          <div>
+            <h3>Sẵn sàng cho căn bếp mơ ước của bạn?</h3>
+            <p>Liên hệ ngay để nhận báo giá tốt nhất và ưu đãi mua sắm trong ngày.</p>
+          </div>
+          <div class="intro-cta-actions">
+            <a class="button-primary" href="tel:0824280666">Gọi 0824 280 666</a>
+            <button class="button-secondary" onclick="showPage('lienhe')">Gửi yêu cầu tư vấn</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="dichvu">
+      <div class="content-card">
+        <div class="section-header">
+          <div>
+            <span class="intro-eyebrow">Dịch vụ trọn gói</span>
+            <h2>Giải pháp bếp toàn diện từ A đến Z</h2>
+            <p>Từ tư vấn chọn thiết bị, lắp đặt đến bảo hành - bảo trì, Happy Kitchen đồng hành cùng bạn trên trọn vòng đời sản phẩm.</p>
+          </div>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon">🧑‍🍳</span>
+            <h3>Tư vấn chọn thiết bị bếp</h3>
+            <p>Chuyên viên am hiểu giúp bạn chọn bếp, hút mùi, máy rửa bát phù hợp với diện tích, ngân sách và nhu cầu nấu nướng của gia đình.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">📐</span>
+            <h3>Khảo sát & thiết kế</h3>
+            <p>Khảo sát tận nơi, đo đạc và đề xuất sơ đồ bố trí thiết bị tối ưu công năng, đảm bảo tính thẩm mỹ cho căn bếp.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🚚</span>
+            <h3>Vận chuyển & lắp đặt 24h</h3>
+            <p>Miễn phí vận chuyển và lắp đặt nội thành Hà Nội, TP.HCM. Đội kỹ thuật lành nghề thi công nhanh, an toàn, đúng tiêu chuẩn hãng.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🛡️</span>
+            <h3>Bảo hành chính hãng</h3>
+            <p>Bảo hành đầy đủ theo chính sách của nhà sản xuất, hỗ trợ đổi mới trong 7 ngày nếu sản phẩm có lỗi từ nhà máy.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">🔧</span>
+            <h3>Bảo trì - vệ sinh định kỳ</h3>
+            <p>Dịch vụ vệ sinh máy hút mùi, máy rửa bát và thay lõi máy lọc nước định kỳ, kéo dài tuổi thọ thiết bị và tiết kiệm điện nước.</p>
+          </article>
+          <article class="service-card">
+            <span class="service-icon">📞</span>
+            <h3>Hỗ trợ kỹ thuật trọn đời</h3>
+            <p>Hotline 0824 280 666 hỗ trợ tư vấn sử dụng và xử lý sự cố trọn đời sản phẩm. Tư vấn online qua Zalo bất kể khung giờ.</p>
+          </article>
+        </div>
+
+        <div class="process-section">
+          <div class="process-header">
+            <h3>Quy trình phục vụ 4 bước</h3>
+            <p>Đơn giản - minh bạch - đúng cam kết.</p>
+          </div>
+          <div class="process-steps">
+            <div class="process-step">
+              <span class="process-num">01</span>
+              <h4>Tư vấn</h4>
+              <p>Liên hệ hotline hoặc Zalo, nhận tư vấn chọn sản phẩm phù hợp.</p>
+            </div>
+            <div class="process-step">
+              <span class="process-num">02</span>
+              <h4>Báo giá</h4>
+              <p>Báo giá tốt nhất kèm các ưu đãi mua sắm trong ngày.</p>
+            </div>
+            <div class="process-step">
+              <span class="process-num">03</span>
+              <h4>Giao - Lắp</h4>
+              <p>Vận chuyển, lắp đặt và hướng dẫn sử dụng trong vòng 24h.</p>
+            </div>
+            <div class="process-step">
+              <span class="process-num">04</span>
+              <h4>Hậu mãi</h4>
+              <p>Bảo hành chính hãng, hỗ trợ kỹ thuật và bảo trì trọn đời.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro-cta">
+          <div>
+            <h3>Cần tư vấn ngay hôm nay?</h3>
+            <p>Đội ngũ chuyên viên Happy Kitchen luôn sẵn sàng hỗ trợ bạn.</p>
+          </div>
+          <div class="intro-cta-actions">
+            <a class="button-primary" href="tel:0824280666">Gọi 0824 280 666</a>
+            <button class="button-secondary" onclick="showPage('lienhe')">Gửi yêu cầu</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" id="khuyenmai">
+      <div class="content-card">
+        <h2>Khuyến mại</h2>
+        <ul class="promo-list">
+          <li>Giảm đến 35% cho bộ bếp điện từ và máy hút mùi.</li>
+          <li>Miễn phí vận chuyển và lắp đặt khu vực nội thành Hà Nội.</li>
+          <li>Tặng quà khi mua đơn trên 10.000.000₫.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="page" id="tintuc">
+      <div class="content-card">
+        <div class="section-header">
+          <div>
+            <h2>Tin tức</h2>
+            <p>Cập nhật xu hướng bếp, ưu đãi mới và mẹo nội trợ cho gia đình hiện đại.</p>
+          </div>
+        </div>
+        <div class="news-grid" id="newsList"></div>
+      </div>
+    </section>
+
+    <section class="page" id="lienhe">
+      <div class="contact-grid">
+        <div class="content-card contact-info">
+          <h2>Liên hệ</h2>
+          <p>Hãy gửi yêu cầu và đội ngũ chúng tôi sẽ hỗ trợ bạn nhanh nhất.</p>
+          <ul>
+            <li><strong>Hotline:</strong> 0824 280 666</li>
+            <li><strong>Email:</strong> hieutop0102@gmail.com</li>
+            <li><strong>Địa chỉ:</strong> Hà Nội, Việt Nam</li>
+          </ul>
+        </div>
+        <div class="content-card contact-form-card">
+          <h2>Gửi yêu cầu</h2>
+          <form class="contact-form" onsubmit="submitContact(event)">
+            <input type="text" id="contactName" placeholder="Họ tên" required />
+            <input type="email" id="contactEmail" placeholder="Email" required />
+            <textarea id="contactMessage" rows="5" placeholder="Nội dung" required></textarea>
+            <button type="submit" class="button-primary">Gửi liên hệ</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <h3>Tổng Kho Bếp Giá Tốt Happy Kitchen</h3>
+      <p>Thiết bị bếp chính hãng, giá tốt, phục vụ tận tâm.</p>
+    </div>
+    <div>
+      <h3>Liên hệ nhanh</h3>
+      <p>Hotline: <a href="tel:0824280666">0824 280 666</a></p>
+      <p>Email: <a href="mailto:hieutop0102@gmail.com">hieutop0102@gmail.com</a></p>
+    </div>
+  </footer>
+
+  <div class="product-detail-modal" id="detailModal">
+    <div class="modal-backdrop" onclick="closeProductDetail()"></div>
+    <div class="modal-dialog">
+      <button class="modal-close" onclick="closeProductDetail()">×</button>
+      <div class="modal-grid">
+        <div class="detail-gallery">
+          <div class="detail-main-image">
+            <img id="detailMainImage" src="images/products/placeholder.svg" alt="Chi tiết sản phẩm" loading="lazy" />
+          </div>
+          <div class="detail-thumbnails" id="detailThumbnails"></div>
+        </div>
+        <div class="detail-info">
+          <h2 id="detailName">Tên sản phẩm</h2>
+          <div class="detail-price">
+            <div class="price" id="detailPrice">0 ₫</div>
+            <div class="old-price" id="detailOldPrice">0 ₫</div>
+            <div class="sale-tag" id="detailSale">-0%</div>
+          </div>
+          <div class="detail-meta">
+            <p><strong>Thương hiệu:</strong> <span id="detailBrand"></span></p>
+            <p><strong>Xuất xứ:</strong> <span id="detailOrigin"></span></p>
+            <p><strong>Mã sản phẩm:</strong> <span id="detailSku"></span></p>
+            <p><strong>Tình trạng:</strong> <span id="detailStatus"></span></p>
+          </div>
+          <p id="detailDescription"></p>
+          <div class="detail-actions">
+            <button class="buy-now" onclick="buyNow(activeDetailId)">MUA NGAY</button>
+            <button class="add-cart" onclick="addToCart(activeDetailId)">THÊM VÀO GIỎ</button>
+          </div>
+          <div class="detail-tab-wrapper">
+            <div class="detail-tabs">
+              <button class="detail-tab active" data-tab="product-info" onclick="switchDetailTab('product-info')">Thông tin sản phẩm</button>
+              <button class="detail-tab" data-tab="specs" onclick="switchDetailTab('specs')">Thông số kỹ thuật</button>
+            </div>
+            <div class="detail-tab-content" id="detailTabContent"></div>
+          </div>
+          <div class="detail-hotline">Hotline: 0824 280 666</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="notification-toast" id="toast" aria-live="polite"></div>
+
+  <!-- Floating contact widget -->
+  <div class="floating-contact" aria-label="Liên hệ nhanh">
+    <a class="fc-item fc-zalo" href="https://zalo.me/0824280666" target="_blank" rel="noopener" data-tip="Chat Zalo">
+      <img src="images/contact/zalo.svg" alt="Zalo" loading="lazy" />
+    </a>
+    <a class="fc-item fc-phone" href="tel:0824280666" data-tip="Gọi 0824 280 666">
+      <img src="images/contact/phone.svg" alt="Hotline" loading="lazy" />
+      <span class="fc-pulse"></span>
+    </a>
+    <button class="fc-item fc-top" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})" data-tip="Lên đầu trang" aria-label="Lên đầu trang">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+    </button>
+  </div>
+  <script defer src="products.js?v=5"></script>
+  <script defer src="news.js?v=5"></script>
+  <script defer src="api.js?v=5"></script>
+  <script defer src="script.js?v=5"></script>
+</body>
+</html>
